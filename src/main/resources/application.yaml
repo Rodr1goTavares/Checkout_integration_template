@@ -1,0 +1,16 @@
+# application.yaml
+spring:
+  application:
+    name: payment-checkout
+
+server:
+  port: 8080
+
+#----------------------<key>----------------------##
+checkout:
+  api:
+    key: exemple-key
+
+database:
+  txt:
+    path: resources/database.txt
